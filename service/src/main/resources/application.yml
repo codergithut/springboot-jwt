@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:hsqldb:file:~/.h2/testdb3
+    username: sa
+    password: sa
+    driverClassName: org.hsqldb.jdbcDriver
